@@ -45,9 +45,16 @@ Model - cell decision process
 <img src="images/fig1.png" width="50%" />
 
 
-Model - variation and selection
+Model - modes of tumor growth
 -----------------------------------
-<img src="images/fig2.png" width="50%" />
+<img src="images/fig2.jpg" width="100%" />
+* Evolving parameters for tumor cells
+  * excess glucose consumption
+  * acid resistence
+
+Note:
+discuss 2 modes of tumor growth
+link to two evolving parameters
 
 
 Untreated tumor progression
@@ -59,7 +66,12 @@ Untreated tumor progression
 
 <div style="font-size: .55em; text-align: center; margin-top:-10px">white = blood vessel; black = empty space; dark gray = necrosis; medium gray = normal tissue;</div>
 
-**Tumors acquire acid resistance followed by glycolytic capacity**
+* Growth due to *perfect* match of phenotype and environment:
+  1. critical mass of glycolytic cells to kill normal cells
+  2. glycolytic cells must be at the boundary
+  3. blood vessels far away
+* Aggresive cells develop in the core and become invasive when they can reach the boundary
+
 
 
 
