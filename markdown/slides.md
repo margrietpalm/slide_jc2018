@@ -109,24 +109,20 @@ green = normal tumor cell; blue = acid resistant; mangenta = glycolytic;
 2. Invasive growth when tumor induces cell death in normal tissue
 
 
-Results - 2 modes of tumor growth
----------------------------------
-* Invasion due to *perfect* match of phenotype and environment:
-  1. critical mass of glycolytic cells to kill normal cells
-  2. glycolytic cells must be at the boundary
-  3. blood vessels far away
-* Aggresive cells develop in the core and become invasive when they can reach the boundary
-
-Note:
-discuss 2 modes of tumor growth: homeostasis limited by free space; invasive when tumor induces cell deah
-overall tumor phenotype only changes slightly
-results are consistent over replicates
-
-
-
-
-Invasion
+Results - Invasion
 ------------------
+1. Shift to acid resistance during short periods of hypoxia
+2. Hypoxic core leads to reliance on glycolysis
+3. Glycolytic cells develop but cannot leave the core
+4. Glycolytic cells reach boundary and start Invasion
+
+
+pH buffering therapy
+---------------------------
+
+<video width="1200" controls loop autoplay>
+<source src="movies/movie2.mp4" type="video/mp4">
+</video>
 
 
 pH buffering therapy
@@ -137,42 +133,49 @@ pH buffering therapy
 
 
 Anti-angiogenic therapy
-------------------------------
+-----------------------------
+
+<video width="600px" controls loop autoplay>
+<source src="movies/movie3.mp4" type="video/mp4">
+</video>
+
+
+Anti-angiogenic therapy
+-----------------------------
 * blood vessels are not added
 * treatment increases selection in favor of aggressive cells
-*
 
 
 Cytotoxic therapy
 --------------------
-* toxins are delivered by the blood -> spatial effects
-*
+
+<video width="1200" controls loop autoplay>
+<source src="movies/movie4.mp4" type="video/mp4">
+</video>
 
 
-Pros and cons
+Cytotoxic therapy
+--------------------  
+* toxins are delivered by the blood -> spatial e  ffect s
+
+
+
+&#x1F44D; and &#x1F44E;
 ---------------------------
-Pro:
-* insights in effects of treatments
-* focus on phenotype -> too much noise in genetic data
-
-
-Cons:
-* treatments are oversimplified
-* Not a lot of qunatitative analysis
-* no mechanics
-* 2D
-
-
-Caption
------------------------------------------------
-<div style="position:absolute;background: white;width:100%;height:600px">
-<img src="images/placeholder.svg" width="100%"/>
-<div style="font-size: .5em; text-align: center; margin-bottom: 20px">I made this myself</div>
+<div style="display:flex; justify-content:center;font-size:.9em; text-align:left">
+  <div width="500px">
+  &#x1F44D;
+  <ul>
+    <li> mechanistic insight in tumor progression </li>
+    <li> mechanistic insight in treatment effects </li>
+    <li> focus on phenotype </li>
+  </ul>
+  </div>
+  <div width="500px">
+  &#x1F44E;
+  <ul>
+    <li> treatments are over-simplefied </li>
+    <li> no quantitative analysis </li>
+    <li> 2D model that does not consider mechanics </li>
+  </div>
 </div>
-
-
-
-
-Math without mathjax
---------------------------------------------------------
-- Use unicode: 3&#x22C5;10&#x2075;
