@@ -112,42 +112,69 @@ green = normal tumor cell; blue = acid resistant; mangenta = glycolytic;
 Results - Invasion
 ------------------
 1. Shift to acid resistance during short periods of hypoxia
-2. Hypoxic core leads to reliance on glycolysis
+2. Hypoxic core, with acid resistent cells, leads to need for glycolysis
 3. Glycolytic cells develop but cannot leave the core
 4. Glycolytic cells reach boundary and start Invasion
+
+<div style="display: flex; flex-direction: row">
+  <div width="25%"><img src="images/fig3a.jpg"></div>
+  <div><img src="images/fig3c.jpg"></div>
+  <div><img src="images/fig3e.jpg"></div>
+  <div><img src="images/fig3g.jpg"></div>
+</div>
+
+<div style="font-size: .55em; text-align: center; margin-top:-10px">
+white = blood vessel; black = empty space; dark gray = necrosis; medium gray = normal tissue;
+<br>
+green = normal tumor cell; blue = acid resistant; mangenta = glycolytic;
+</div>
 
 
 pH buffering therapy
 ---------------------------
+<div style="display: flex; flex-direction: row; font-size: .8em; text-align: center">
+  <div style="min-width:300px">untreated</div>
+  <div style="min-width:300px">early treatment</div>
+  <div style="min-width:300px">late treatment</div>
+</div>
 
 <video width="1200" controls loop autoplay>
 <source src="movies/movie2.mp4" type="video/mp4">
 </video>
 
-
-pH buffering therapy
----------------------------
-* application of systemic pH buffers to mice can prevent or slow down tumor development and metastatic growth
-* treatment before invasive state stops cell from breaking the buffers
-* treatment after does not help
+Note:
+* Early treatment blocks development of acid resistent cells and thus no invasion
+* Fits with observation that early treated mice to not develop metastasis
+* While late treatment may not block tumor development, may prevent metastasis cascade
 
 
 Anti-angiogenic therapy
 -----------------------------
+* Long standing hypothesis: blocking angiogenesis blocks tumor growth
+* Trails are generally not successful
+  * Same treatments do block angiogenesis
+* Blocking angiogenesis causes hypoxia and reduces pH
 
+
+Anti-angiogenic therapy
+-----------------------------
 <video width="600px" controls loop autoplay>
 <source src="movies/movie3.mp4" type="video/mp4">
 </video>
 
 
-Anti-angiogenic therapy
------------------------------
-* blood vessels are not added
-* treatment increases selection in favor of aggressive cells
-
-
 Cytotoxic therapy
 --------------------
+* Drug reached tumor via diffusion
+* Most aggressive cells develop in the core
+  * Can drugs reach these cells?
+  * Do drugs free those cells?
+
+<div style="margin-top: 50px; display: flex; flex-direction: row; font-size: .8em; text-align: center">
+  <div style="min-width:300px">untreated</div>
+  <div style="min-width:300px">early treatment</div>
+  <div style="min-width:300px">late treatment</div>
+</div>
 
 <video width="1200" controls loop autoplay>
 <source src="movies/movie4.mp4" type="video/mp4">
@@ -156,26 +183,43 @@ Cytotoxic therapy
 
 Cytotoxic therapy
 --------------------  
-* toxins are delivered by the blood -> spatial e  ffect s
+<img src="images/fig6.jpg"/>
+* Early treatment: reduce initial tumor size and limits invasion
+* Late treatment: buffer of metabolically benign cells is killed
 
 
 
-&#x1F44D; and &#x1F44E;
----------------------------
-<div style="display:flex; justify-content:center;font-size:.9em; text-align:left">
-  <div width="500px">
-  &#x1F44D;
-  <ul>
-    <li> mechanistic insight in tumor progression </li>
-    <li> mechanistic insight in treatment effects </li>
-    <li> focus on phenotype </li>
-  </ul>
-  </div>
-  <div width="500px">
-  &#x1F44E;
-  <ul>
-    <li> treatments are over-simplefied </li>
-    <li> no quantitative analysis </li>
-    <li> 2D model that does not consider mechanics </li>
-  </div>
+Main conclusions
+----------------------
+* Tumors become invasive when the aggressive cells that develop in the core can escape
+* Late treatments may help aggressive cells escape
+
+
+What I really like &#x1F603;
+-------------------------------
+* Model gives mechanistic insights in tumor progression and treatments
+* Model focusses on phenotype instead of genotype
+  * phenotype to genotype translation is often unknown
+* Model highlights the importance of the tumor environment
+
+
+What could be better &#x1F620;
+--------------------------------
+* There is no cell migration in this invasion model
+* No mechanics and no ECM
+* Diffusion of nutrients / treatments is not affected by spatial heterogeneity
+* No quantitative analysis of the model or parameter sensitivity analysis
+* Code not published &#x1F62D;
+
+
+
+How about combination therapy?
+---------------------------------------
+DIY: Cancer Crusade game for Android and iOS (http://cancercrusadegame.com/)
+
+<div style="margin-top: 50px; display: flex; flex-direction: row; font-size: .8em; text-align: center">
+  <div width="25%"><img src="images/Slide1.png"></div>
+  <div><img src="images/Slide2.png"></div>
+  <div><img src="images/Slide5.png"></div>
+  <div><img src="images/Slide6.png"></div>
 </div>
