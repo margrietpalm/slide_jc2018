@@ -10,7 +10,6 @@ Genotypic divergence and phenotypic convergence
 Multiple biopsies from the same tumor display distinct genetic profiles and yet are phenotypically similar
 </blockquote>
 
-
 * Consequence of evolution:
   * cells are in the same TME
   * selection of clones that survive in that TME
@@ -220,9 +219,9 @@ How about combination therapy?
 ---------------------------------------
 DIY: Cancer Crusade game for Android and iOS (http://cancercrusadegame.com/)
 
-<div style="margin-top: 50px; display: flex; flex-direction: row; font-size: .8em; text-align: center">
-  <div width="25%"><img src="images/Slide1.png"></div>
-  <div><img src="images/Slide2.png"></div>
-  <div><img src="images/Slide5.png"></div>
-  <div><img src="images/Slide6.png"></div>
+<div width="100px" style="margin-top: 50px; display: flex; flex-direction: row; font-size: .8em; text-align: center">
+  <div width="250px"><img src="images/Slide1.png"></div>
+  <div width="25%"><img src="images/Slide2.png"></div>
+  <div width="25%"><img src="images/Slide5.png"></div>
+  <div width="25%"><img src="images/Slide6.png"></div>
 </div>
