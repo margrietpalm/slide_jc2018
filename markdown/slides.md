@@ -70,7 +70,7 @@ Model - metabolism
   \text{G}$)
 * ATP production is determined by oxygen and glucose take up
 * H$^+$ production depends on the amount of glycolysis
-* New blood vessels are added inhypoxic areas
+* New blood vessels are added in hypoxic areas
 
 
 Model - evolution
@@ -80,10 +80,10 @@ Model - evolution
   <ul>
     <li>Evolving parameters</li>
     <ul>
-      <li> excess glucose consumpion = glycolysis </li>
+      <li> excess glucose consumption = glycolysis </li>
       <li> acid resistance </li>
     </ul>
-    <li> Values are tranfsered to dauther cells, with some noise </li>
+    <li> Values are transferred to daughter cells, with some noise </li>
     </ul>
   </div>
   <div width="800pix">
@@ -103,7 +103,7 @@ Results - 2 modes of tumor growth
 <div style="font-size: .55em; text-align: center; margin-top:-10px">
 white = blood vessel; black = empty space; dark gray = necrosis; medium gray = normal tissue;
 <br>
-green = normal tumor cell; blue = acid resistant; mangenta = glycolytic;
+green = normal tumor cell; blue = acid resistant; magenta = glycolytic;
 </div>
 
 1. Homeostatic growth limited by available space
@@ -113,7 +113,7 @@ green = normal tumor cell; blue = acid resistant; mangenta = glycolytic;
 Results - Invasion
 ------------------
 1. Shift to acid resistance during short periods of hypoxia
-2. Hypoxic core, with acid resistent cells, leads to need for glycolysis
+2. Hypoxic core, with acid resistant cells, leads to need for glycolysis
 3. Glycolytic cells develop but cannot leave the core
 4. Glycolytic cells reach boundary and start Invasion
 
@@ -127,7 +127,7 @@ Results - Invasion
 <div style="font-size: .55em; text-align: center; margin-top:-10px">
 white = blood vessel; black = empty space; dark gray = necrosis; medium gray = normal tissue;
 <br>
-green = normal tumor cell; blue = acid resistant; mangenta = glycolytic;
+green = normal tumor cell; blue = acid resistant; magenta = glycolytic;
 </div>
 
 
@@ -144,7 +144,7 @@ pH buffering therapy
 </video>
 
 Note:
-* Early treatment blocks development of acid resistent cells and thus no invasion
+* Early treatment blocks development of acid resistant cells and thus no invasion
 * Fits with observation that early treated mice to not develop metastasis
 * While late treatment may not block tumor development, may prevent metastasis cascade
 
@@ -199,7 +199,7 @@ Main conclusions
 What I really like &#x1F603;
 -------------------------------
 * Model gives mechanistic insights in tumor progression and treatments
-* Model focusses on phenotype instead of genotype
+* Model focuses on phenotype instead of genotype
   * phenotype to genotype translation is often unknown
 * Model highlights the importance of the tumor environment
 
