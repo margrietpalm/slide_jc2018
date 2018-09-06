@@ -1,4 +1,4 @@
-<img src="images/title.png" width="100%"/>
+<a href="http://cancerres.aacrjournals.org.ezproxy.leidenuniv.nl:2048/content/75/8/1567"><img src="images/title.png" width="100%"/></a>
 
 TLDR: Computational model of tumor progression gives insight in how tumors progress and respond to treatment.
 
