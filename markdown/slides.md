@@ -10,6 +10,7 @@ Genotypic divergence and phenotypic convergence
 Multiple biopsies from the same tumor display distinct genetic profiles and yet are phenotypically similar
 </blockquote>
 
+
 * Consequence of evolution:
   * cells are in the same TME
   * selection of clones that survive in that TME
@@ -209,7 +210,9 @@ What could be better &#x1F620;
 * No mechanics and no ECM
 * Diffusion of nutrients / treatments is not affected by spatial heterogeneity
 * No quantitative analysis of the model or parameter sensitivity analysis
-* Code not published &#x1F62D;
+* Not enough information to reproduce the model
+  * Methods are not fully described
+  * Code not published &#x1F62D;
 
 
 
